@@ -9,5 +9,14 @@
         android:id="@+id/coinListFragment"
         android:name="com.example.cryptocurrency.presenter.CoinListFragment"
         android:label="fragment_coin_list"
-        tools:layout="@layout/fragment_coin_list" />
+        tools:layout="@layout/fragment_coin_list" >
+        <action
+            android:id="@+id/action_coinListFragment_to_coinDetailFragment"
+            app:destination="@id/coinDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coinDetailFragment"
+        android:name="com.example.cryptocurrency.presenter.CoinDetailFragment"
+        android:label="coin_detail_layout"
+        tools:layout="@layout/coin_detail_layout" />
 </navigation>

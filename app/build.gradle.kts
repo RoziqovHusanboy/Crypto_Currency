@@ -82,6 +82,10 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
 
 
+    implementation ("com.nex3z:flow-layout:1.3.3")
+
+    //glide
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
 
 }
